@@ -1,0 +1,14 @@
+[bibliography]
+== Normative references
+
+* [[[RFC2119,RFC 2119]]]
+* [[[RFC4791,RFC 4791]]]
+* [[[RFC4918,RFC 4918]]]
+* [[[RFC5545,RFC 5545]]]
+* [[[RFC5546,RFC 5546]]]
+* [[[iMIP,RFC 6047]]]
+* [[[RFC8174,RFC 8174]]]
+* [[[RFC8984,RFC 8984]]]
+* [[[RFC9073,RFC 9073]]]
+
+* [[[Relations,IETF(I-D.draft-ietf-calext-ical-relations)]]]

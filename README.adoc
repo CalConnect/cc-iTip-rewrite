@@ -1,30 +1,28 @@
-= CalConnect Standard: (TITLE)
+= CalConnect Standard: Calendar and scheduling -- iCalendar Transport-Independent Interoperability Protocol (iTIP)
 
-This work item belongs to CalConnect (TCs).
+This work item belongs to CalConnect TC CALENDAR.
 
 image:https://github.com/CalConnect/cc-iTip-rewrite/workflows/generate/badge.svg["Build Status", link="https://github.com/CalConnect/cc-iTip-rewrite/actions?workflow=generate"]
 
 This document is available in its rendered forms here:
 
-* https://calconnect.github.io/cc-iTip-rewrite/[CalConnect: Calendaring and scheduling -- Vocabulary (HTML)]
+* https://calconnect.github.io/cc-iTip-rewrite/[Calendar and scheduling -- iCalendar Transport-Independent Interoperability Protocol (iTIP)]
 
 == General
 
-This document specifies the (TITLE).
+This document specifies the Calendar and scheduling -- iCalendar
+Transport-Independent Interoperability Protocol (iTIP).
 
 The document is published as the following:
 
-* CalConnect CC (DOCNUMBER)
-* ISO (DOCNUMBER)
-* IETF draft-cc-iTip-rewrite
+* CalConnect CC 51008
+// * ISO (DOCNUMBER)
+* IETF draft-ietf-calext-itipbis
 
 
 == Fetching the document
 
-[source,sh]
-----
-git clone https://github.com/CalConnect/cc-iTip-rewrite/
-----
+Click on "Code > Local" to clone this repository.
 
 
 == Installing build tools
@@ -64,15 +62,15 @@ open _site/index.html
 ----
 
 
-// == IETF: Checking against idnits
+== IETF: Checking against idnits
 
-// https://tools.ietf.org/tools/idnits/[idnits] is the RFC checking tool prior to
-// submissions.
+https://tools.ietf.org/tools/idnits/[idnits] is the RFC checking tool prior to
+submissions.
 
-// [source,sh]
-// ----
-// idnits draft-calconnect-vobject-vformat.nits
-// ----
+[source,sh]
+----
+idnits draft-ietf-calext-itipbis.nits
+----
 
 
 == License
