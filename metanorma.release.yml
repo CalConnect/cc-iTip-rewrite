@@ -1,3 +1,5 @@
+# metanorma.release.yml — cc-iTip-rewrite
+
 documents:
-  - source: sources/cc-51008.adoc
-  - source: sources/draft-ietf-calext-itipbis.adoc
+  - pattern: "cc-*"
+    channels: [public/standards]
